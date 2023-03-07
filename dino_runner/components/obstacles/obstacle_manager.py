@@ -22,5 +22,5 @@ class ObstacleManager:
         for obstacle in self.obstacles:
             obstacle.draw(screen)
 
-# Agregar el Bird
-# Agregar los dos cactus SMALL_CACTUS, LARGE_CACTUS, ...
+    def reset_obstacles(self):
+        self.obstacles = []
