@@ -7,8 +7,3 @@ if __name__ == "__main__":
         if not game.playing:
             game.show_menu(death_count=death_count)
             death_count += 1
-
-
-# TAREA CLASE 4:
-# HACER UN MENU MAS BONITO :) , puede ser mas colores, mas imagenes, otras fuentes 
-# PONERLE MUSIQUITA AL JUEGO
